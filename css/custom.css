@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     /* The html and body elements cannot have any padding or margin. */
+    font-family: 'Open Sans', sans-serif;
     /*background-image: url(../images/light-background-tile.jpg) ;*/
 }
 
@@ -26,6 +27,11 @@ p {
 
 .whiteback {
     background-color: white;
+}
+
+h1 {
+    text-shadow: #000098 1px 1px 2px;
+    font-size:x-large;
 }
 
 
@@ -79,6 +85,10 @@ p {
 
 .margin {
     margin-right: 20px;
+}
+.double-margin {
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .iblock {
