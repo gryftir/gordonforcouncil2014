@@ -1,0 +1,99 @@
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+    /*background-image: url(../images/light-background-tile.jpg) ;*/
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -20px;
+    /* Pad bottom by footer height */
+    padding: 0 0 20px;
+}
+.blueback {
+    background-color: #000098;
+    border: none;
+    color:white !important;
+}
+
+.whiteback {
+    background-color: white;
+}
+
+
+.blueback .navbar-nav>li>a {
+    background-color: white;
+    /*-moz-border-radius-topright: 10px 15px;*/
+    /*border-top-right-radius: 10px 15px;*/
+    /*-moz-border-radius-topleft: 10px 15px;*/
+    /*border-top-left-radius: 10px 15px;*/
+    margin-left: 5px;
+    color: #000098;
+}
+
+.nav > li {
+    margin-top:10px;
+    margin-bottom:-10px
+}
+
+.bottom-height {
+    height: 100%;
+}
+
+.navbar-nav>li>a:hover {
+    background-color:#2684B7 !important;
+    color:white !important;
+}
+
+.blueback .navbar-nav>.active>a {
+    background-color:#2684B7 !important;
+    color:white !important;
+}
+
+.white {
+    color:white;
+}
+
+.lightblueback {
+    background-color:#2684B7 !important;
+    color:white !important;
+}
+.padside-wide {
+    padding-left: 50px;
+    padding-right 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.padside {
+    padding-left: 20px;
+    padding-right 20px;
+}
+
+.margin {
+    margin-right: 20px;
+}
+
+.iblock {
+    display: inline-block;
+}
+
+
+footer {
+    font-size: small;
+    height: 20px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+footer >span > a {
+    text-decoration:underline;
+}
+
